@@ -3,6 +3,8 @@ import 'animate.css'
 import i18n from 'i18next'
 import zhjson from '../locales/zh.json'
 import jajson from '../locales/ja.json'
+import { Analytics } from '@vercel/analytics/react';
+
 
 const resources = { zh: { translation: zhjson }, ja: { translation: jajson } }
 i18n.init({
@@ -18,5 +20,8 @@ i18n.init({
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <>
+  <Component {...pageProps} />
+  <Analytics />
+  </>
 }

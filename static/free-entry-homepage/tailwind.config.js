@@ -17,7 +17,20 @@ module.exports = {
           DEFAULT: '#3f1f39',
         }
       },
-
+      keyframes: {
+        'c-ltr-slidein': {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        'c-rtl-slidein': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        }
+      },
+      animation: {
+        'c-ltr-slidein': 'c-ltr-slidein 0.4s ease-in',
+        'c-rtl-slidein': 'c-rtl-slidein 0.4s ease-in',
+      },
     },
   },
   plugins: [],

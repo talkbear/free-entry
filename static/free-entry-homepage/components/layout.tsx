@@ -57,7 +57,7 @@ export default function Layout({ className = '', children, title = i18n.t('label
 
       <header className="absolute z-[100] w-full flex items-center p-10">
         <div className="flex items-center justify-center">
-          <img src="logo.jpg" alt="logo" className="w-8 h-8" />
+          <img src="logo-spot.png" alt="logo" className="w-8 h-8" />
           <span className="text-base pl-3 font-bold">{i18n.t('home-free-entry')}</span>
         </div>
         <nav className="pl-20">

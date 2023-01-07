@@ -1,5 +1,5 @@
-# Free Entry (自由门)
-> Project management at clickup [here](https://app.clickup.com/36996818/v/l/s/61060385)
+# Free Entry
+
 ## Description
 
 **About Author**

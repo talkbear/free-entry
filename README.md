@@ -4,8 +4,7 @@
 
 **About Project**
 
-This project aims to build a cross-platform desktop/mobile application to speed up your video/music/surfing experience in overseas with shared free open vpn servers.
-
+A open source cross-platform flutter project aims to provide tool to mutual-aid.
 
 ### Development
 
